@@ -13,4 +13,23 @@ next page.
 
 ![](img/page(2).png)
 
+Then we can go to any page of the site and find out
+the sports news.
+For example, we want to know what's going on in the
+world of football.  Click on football and go to the
+next page.
+
+![](img/page(3).png)
+
+If admin is logged in, he can add news ,user user 
+can only view pages.  Go to the
+Add News page and then click the Add button and we
+see a form for creating our news.
+
+![](img/page(4).png)
+
+In the field "sport" we write for example football 
+and after clicking the add article button, this 
+article will be added to other existing articles on
+this page(football).
 
