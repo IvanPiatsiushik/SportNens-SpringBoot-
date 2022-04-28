@@ -54,8 +54,4 @@ public class KindSportController {
         return "corusel";
     }
 
-    @GetMapping ("/registration")
-    public String registration(){ return "registration"; }
-
-
 }
