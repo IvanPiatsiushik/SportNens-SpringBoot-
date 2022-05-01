@@ -1,0 +1,13 @@
+sportnews\demo\controller\RegistrationController.class
+sportnews\demo\DemoApplication.class
+sportnews\demo\controller\KindSportController.class
+sportnews\demo\repos\UserRepository.class
+sportnews\demo\model\Role.class
+sportnews\demo\model\Post.class
+sportnews\demo\model\User.class
+sportnews\demo\web\SecurityConfig\SecurityConfig.class
+sportnews\demo\services\UserDetailImpl.class
+sportnews\demo\services\UserDetailServiceImpl.class
+sportnews\demo\controller\LoginController.class
+sportnews\demo\repos\PostRepository.class
+sportnews\demo\controller\AddNewsController.class

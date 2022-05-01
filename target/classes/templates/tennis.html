@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tennis</title>
+    <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-body border-bottom shadow-sm">
+        <p class="h5 my-0 me-md-auto fw-normal"><a href="home">SportNews</a></p>
+        <nav class="my-2 my-md-0 me-md-3">
+            <a class="p-2 text-dark" href="football">Football</a>
+            <a class="p-2 text-dark" href="hockey">Hockey</a>
+            <a class="p-2 text-dark" href="basketball">Basketball</a>
+            <a class="p-2 text-dark" href="biathlon">Biathlon</a>
+            <a class="p-2 text-dark" href="tennis">Tennis</a>
+        </nav>
+        <a class="btn btn-outline-primary" href="addNews">Add News</a>
+    </header>
+</head>
+<body background="https://gamerwall.pro/uploads/posts/2021-11/1637071150_52-gamerwall-pro-p-prozrachnaya-tekstura-oboi-na-zastavku-52.jpg">
+
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <ul class="list">
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Tennis/ATP/spbnews_NI1313002_Vpervyje_v_istorii_tri_rossijskih_tennisista_sygrajut_v_chetvertfinale_turnira_Bolshogo_shlema" data-node-id="1313002">Впервые в истории три российских теннисиста сыграют в четвертьфинале турнира «Большого шлема»<span class="comments"><span class="glyphicon glyphicon-comment"></span> 1</span></a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Tennis/ATP/spbnews_NI1312994_Nadal_uverenno_spravilsa_s_Fonini_na_Australian_Open" data-node-id="1312994">Надаль уверенно справился с Фоньини на Australian Open</a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Tennis/ATP/spbnews_NI1312985_Andrej_Rublev__o_chetvertfinale_s_Medvedevym_Po_krajnej_mere_odin_iz_nas_budet_v_polufinale_Eto_khorosho" data-node-id="1312985">Андрей Рублев — о матче с Медведевым: «По крайней мере один из нас будет в полуфинале. Это хорошо»</a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Tennis/ATP/spbnews_NI1312973_Daniil_Medvedev_Pervyj_chetvertfinal_v_Avstralii__eto_otlichnoje_dostizhenije_no_ja_vsegda_khochu_bolshego" data-node-id="1312973">Даниил Медведев: «Первый четвертьфинал в Австралии — это отличное достижение, но я всегда хочу большего»</a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Tennis/ATP/spbnews_NI1312964_Medvedev_vyshel_v_chetvertfinal_Australian_Open" data-node-id="1312964">Медведев впервые в карьере вышел в четвертьфинал Australian Open, где может сыграть с Рублевым<span class="comments"><span class="glyphicon glyphicon-comment"></span> 2</span></a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Tennis/spbnews_NI1312721_Dzhokovich_probilsa_v_chetvertfinal_Australian_Open_vyigrav_300_j_match_na_TBSh" data-node-id="1312721">Джокович пробился в четвертьфинал Australian Open, выиграв 300-й матч на ТБШ</a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Tennis/ATP/spbnews_NI1312584_Dimitrov_razgromil_Tima_na_Australian_Open_i_vyshel_na_Karaceva" data-node-id="1312584">Димитров разгромил Тима на Australian Open и вышел на Карацева<span class="comments"><span class="glyphicon glyphicon-comment"></span> 1</span></a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Tennis/spbnews_NI1312207_Nadalu_khvatilo_treh_setov_chtoby_vyjti_v_4_krug_Australian_Open" data-node-id="1312207">Надалю хватило трех сетов, чтобы выйти в 4 круг Australian Open</a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Tennis/spbnews_NI1312179_Aleksandrova_ustupila_Barti_na_Otkrytom_chempionate_Avstralii" data-node-id="1312179">Александрова уступила Барти на Открытом чемпионате Австралии<span class="comments"><span class="glyphicon glyphicon-comment"></span> 3</span></a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Tennis/spbnews_NI1312176_Hachanov_zavershil_borbu_na_Australian_Open" data-node-id="1312176">Хачанов завершил борьбу на Australian Open<span class="comments"><span class="glyphicon glyphicon-comment"></span> 2</span></a>
+                </li>
+
+
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Futbol/Evropejskie_chempionaty/Germaniya/spbnews_NI1311798_Molodaja_simpatichnaja_komanda_iz_Dortmunda_ishhet_trenera_s_opytom" data-node-id="1311798">
+                        <div th:each="el : ${posts}">
+                            <h3 th:text="${el.title}"/>
+                        </div>
+                        <span class="comments"><span class="glyphicon glyphicon-comment"></span> </span></a>
+                </li>
+
+
+            </ul>
+
+        </div>
+        <div class="col-4"> <img src="https://s.yimg.com/uu/api/res/1.2/ilZeysO9cQFKnA1EQPjgug--~B/aD0yMjY5O3c9MzQwMztzbT0xO2FwcGlkPXl0YWNoeW9u/http://media.zenfs.com/en_us/Sports/ap/201908221117406213650" class="card-img-top" alt="..."></div>
+    </div>
+</div>
+
+
+</body>
+</html>

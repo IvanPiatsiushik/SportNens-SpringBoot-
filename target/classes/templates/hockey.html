@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Hockey</title>
+    <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-body border-bottom shadow-sm">
+        <p class="h5 my-0 me-md-auto fw-normal"><a href="home">SportNews</a></p>
+        <nav class="my-2 my-md-0 me-md-3">
+            <a class="p-2 text-dark" href="football">Football</a>
+            <a class="p-2 text-dark" href="hockey">Hockey</a>
+            <a class="p-2 text-dark" href="basketball">Basketball</a>
+            <a class="p-2 text-dark" href="biathlon">Biathlon</a>
+            <a class="p-2 text-dark" href="tennis">Tennis</a>
+        </nav>
+
+        <a class="btn btn-outline-primary" href="addNews">Add News</a>
+    </header>
+</head>
+<body background="https://gamerwall.pro/uploads/posts/2021-11/1637071150_52-gamerwall-pro-p-prozrachnaya-tekstura-oboi-na-zastavku-52.jpg">
+
+
+<div class="container">
+<div class="row">
+    <div class="col-8">
+        <div id="comp_602a57aef3a0a" class="grid-padding-20-15 _Sportbox_Spb2015_Components_ImportantNewsListBlock_ImportantNewsListBlock">
+            <ul class="list">
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Hokkej/KHL/spbnews_NI1313060_Bragin_prodolzhit_vozglavlat_SKA_i_sbornuju_Rossii_po_okonchanii_sezona" data-node-id="1313060">Брагин продолжит возглавлять СКА и сборную России по окончании сезона</a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Hokkej/KHL/spbnews_NI1313037_Aleksej_Morozov_My_dovolny_tem_kak_KKhL_perezhila_pik_zabolevajemosti_koronavirusom" data-node-id="1313037">Алексей Морозов: «Мы довольны тем, как КХЛ пережила пик заболеваемости коронавирусом»</a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Hokkej/NHL/spbnews_NI1312950_Vashington_proigral_Pittsburgu_nesmotra_na_tri_ochka_Kuznecova_i_Ovechkina" data-node-id="1312950">«Вашингтон» проиграл «Питтсбургу», несмотря на два очка Кузнецова и Овечкина</a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Hokkej/Evro_Hokkej_Tur/spbnews_NI1312882_Misul_rasskazal_v_chem_unikalnost_Larionova_kak_trenera" data-node-id="1312882">Мисюль рассказал, в чем уникальность Ларионова как тренера</a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Hokkej/NHL/spbnews_NI1312895_Vashington_perevel_Samsonova_v_farm_klub" data-node-id="1312895">«Вашингтон» перевел Самсонова в фарм-клуб<span class="comments"><span class="glyphicon glyphicon-comment"></span> 1</span></a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Hokkej/Evro_Hokkej_Tur/spbnews_NI1312883_Nikita_Chibrikov_Rezultativnyje_ochki_na_Jevroture__eto_podarok_dla_roditelej_na_moj_den_rozhdenija" data-node-id="1312883">Никита Чибриков: «Результативные очки на Евротуре — это подарок для родителей на мой день рождения»</a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Hokkej/Evro_Hokkej_Tur/spbnews_NI1312809_Valerij_Bragin_Larionovu_ne_podskazyval_no_besedovali_Reshenija_prinimalis_tam" data-node-id="1312809">Валерий Брагин: «Ларионову не подсказывал, но беседовали. Решения принимались там»</a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Hokkej/Evro_Hokkej_Tur/spbnews_NI1312757_Larionov_objasnil_za_schet_chego_Rossii_udalos_obygrat_Chehiju_i_vyigrat_Jevrotur" data-node-id="1312757">Ларионов объяснил, за счет чего России удалось обыграть Чехию и выиграть Евротур</a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Hokkej/NHL/spbnews_NI1312499_Ottava_vyzvala_Anisimova_iz_zapasnogo_sostava" data-node-id="1312499">«Оттава» вызвала Анисимова из запасного состава</a>
+                </li>
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Hokkej/Evro_Hokkej_Tur/spbnews_NI1312459_Igor_Larionov_Sbornaja_Rossii_nashla_vozmozhnosti_perelomit_igru_v_matche_so_Shvecijej" data-node-id="1312459">Игорь Ларионов: «Сборная России нашла возможности переломить игру в матче со Швецией»</a>
+                </li>
+
+
+                <li class="">
+                    <a class="title " href="/Vidy_sporta/Futbol/Evropejskie_chempionaty/Germaniya/spbnews_NI1311798_Molodaja_simpatichnaja_komanda_iz_Dortmunda_ishhet_trenera_s_opytom" data-node-id="1311798">
+                        <div th:each="el : ${posts}">
+                            <h3 th:text="${el.title}"/>
+                        </div>
+                        <span class="comments"><span class="glyphicon glyphicon-comment"></span> </span></a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="col-4"> <img src="https://www.wallpapertip.com/wmimgs/20-208518_alexander-ovechkin.jpg" class="card-img-top" alt="..."></div>
+</div>
+</div>
+
+
+</body>
+</html>

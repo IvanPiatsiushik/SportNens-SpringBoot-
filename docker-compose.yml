@@ -9,13 +9,10 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=root
       - POSTGRES_DB=sport
-    #      - POSTGRES_USER: postgres
-    #      - 'POSTGRES_PASSWORD:root'
-    #      - 'POSTGRES_DB:postgres'
+
     restart: always
   app:
     build: ./
-#    image: docker-hub-dirol/app:latest
     container_name: 'myApp'
     ports:
       - "8080:8080"
