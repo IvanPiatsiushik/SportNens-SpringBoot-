@@ -1,0 +1,50 @@
+/*@media only  screen and (max-width: 1200px) {*/
+/*    !*.col{*!*/
+/*    !*    margin: 10px;*!*/
+/*    !*}*!*/
+/*}*/
+/*@media only  screen and (max-width: 922px) {*/
+/*    .col2{*/
+/*        margin-left: 99px;*/
+/*    }*/
+/*    .col3{*/
+/*        margin-left: 90px;*/
+/*    }*/
+/*    .col4{*/
+/*        margin-top: 364px;*/
+/*        margin-left: -693px;*/
+/*    }*/
+/*    .col5{*/
+/*        margin-top: -474px;*/
+/*        margin-left: 500px;*/
+/*    }*/
+/*    .col6{*/
+/*        margin-top:-105px;*/
+/*    }*/
+/*    .col7{*/
+/*        margin-left: 99px;*/
+/*        margin-top:-105px;*/
+/*    }*/
+/*   .col8{*/
+/*       margin-left: 90px;*/
+/*       margin-top:-105px;*/
+/*   }*/
+/*}*/
+@media only  screen and (max-width: 768px) {
+    .col1{
+        /*height: 200px;*/
+        width: 500px;
+    }
+}
+@media only  screen and (max-width: 480px) {
+    .col1{
+        /*height: 200px;*/
+        width: 400px;
+
+    }
+}
+@media only  screen and (max-width: 320px) {
+    .col{
+        margin: 50px;
+    }
+}
